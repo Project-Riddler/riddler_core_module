@@ -2,7 +2,7 @@ package types
 
 type PostNotificationTaskPayload struct {
 	Question           string
-    ConnectionType     string
+	ConnectionType     string
 	PostID             string
 	UserID             string
 	ConnectionUserID   string
@@ -24,4 +24,3 @@ const (
 	TypeChatNotification   = "chat:deliver"
 	TypeSystemNotification = "system:deliver"
 )
-
