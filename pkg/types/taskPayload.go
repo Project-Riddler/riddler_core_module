@@ -2,6 +2,7 @@ package types
 
 type PostNotificationTaskPayload struct {
 	Question           string
+    ConnectionType     string
 	PostID             string
 	UserID             string
 	ConnectionUserID   string
