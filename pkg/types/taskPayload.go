@@ -18,9 +18,16 @@ type ChatNotificationTaskPayload struct {
 	MessageID  string
 }
 
+type FriendNotificationTaskPayload struct {
+	ConnectionID   string
+	SenderUserID   string
+	ReceiverUserID string
+}
+
 // A list of task types.
 const (
 	TypePostNotification   = "post:deliver"
 	TypeChatNotification   = "chat:deliver"
+	TypeFriendNotification = "friend:deliver"
 	TypeSystemNotification = "system:deliver"
 )
