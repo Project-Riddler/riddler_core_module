@@ -29,6 +29,6 @@ const (
 	TypePostNotification           = "post:deliver"
 	TypeChatNotification           = "chat:deliver"
 	TypeFriendNotification         = "friend:deliver"
-	TypeApprovedFriendNotification = "approvedfriend:deliver"
+	TypeApprovedFriendNotification = "approvedFriend:deliver"
 	TypeSystemNotification         = "system:deliver"
 )
