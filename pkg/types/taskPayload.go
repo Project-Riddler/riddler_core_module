@@ -26,9 +26,9 @@ type FriendNotificationTaskPayload struct {
 
 // A list of task types.
 const (
-	TypePostNotification   = "post:deliver"
-	TypeChatNotification   = "chat:deliver"
-	TypeFriendNotification = "friend:deliver"
-	TypeApprovedFriend     = "approvedFriendRequest:deliver"
-	TypeSystemNotification = "system:deliver"
+	TypePostNotification           = "post:deliver"
+	TypeChatNotification           = "chat:deliver"
+	TypeFriendNotification         = "friend:deliver"
+	TypeApprovedFriendNotification = "approvedfriendrequest:deliver"
+	TypeSystemNotification         = "system:deliver"
 )
